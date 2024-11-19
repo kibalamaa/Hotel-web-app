@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="landingpage.css">
+
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-menu">
+            <!-- <img src="cactus-svgrepo-com (4).svg" width="35" height="35" alt=""> -->
+            <br> <br>
+            <a href="#home"><img src="icons8-home.svg" width="35" height="35" alt=""></a>
+            <a href="#cart" id="cart-btn"><img src="cart-5-svgrepo-com.svg" width="35" height="35"></a>
+            <a href="profilepage.html"><img src="user-circle-svgrepo-com (2).svg" width="35" height="35" alt=""></a>
+            <a href="chatpage.html"><img src="chat-round-line-svgrepo-com.svg" width="35" height="35" alt=""></a>
+
+        </div>
+        <div class="sidebar-footer">
+            <a href="#logout">Logout</a>
+        </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <br> <br>
+    <div class="hero-content1">
+        
+        <h3>ꜰɪɴᴅ ʏᴏᴜʀ ɪᴅᴇᴀʟ</h3>
+        <!-- find-your-ideal.svg -->
+        <img src="-home-away-from-home-.svg" alt=""  width="45%" height="45%">
+       
+      
+    </div>
+    <div class="mainsection">
+        <header class="hero-section">
+            <div class="hero-content">
+                <div class="search-bar">
+                    <div class="input-box">
+                        <label>Location</label>
+                        <input type="text" placeholder="mbarara, Uganda">
+                    </div>
+                    <div class="input-box">
+                        <label>Check In</label>
+                        <input type="date" value="2024-11-08">
+                    </div>
+                    <div class="input-box">
+                        <label>Check Out</label>
+                        <input type="date" value="2024-11-12">
+                    </div>
+                    <div class="input-box">
+                        <label>Room</label>
+                        <input type="text" placeholder="1 Room, 1 Guest">
+                    </div>
+                    <button class="search-btn">Search</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="offers-section">
+            <h2>Best offer this month</h2>
+            <div class="offers-container">
+                <div class="offer-box">
+                    <img src="mbarara2.jpg" alt="Offer 1">
+                    <h3>50% Off</h3>
+                    <p>Highland Haven</p>
+                    <h4>mbarara</h4>
+                    <button class="view-btn" data-house-id="1">View</button>
+                </div>
+                <div class="offer-box">
+                    <img src="harmony kla (1).jpg" alt="Offer 1">
+                    <h3>20% Off</h3>
+                    <p>Harmony Heights</p>
+                    <h4>Kampala</h4>
+                    <button class="view-btn" data-house-id="2">View</button>
+                </div>
+                <div class="offer-box">
+                    <img src="image2.jpg" alt="Offer 1">
+                    <h3>50% Off</h3>
+                    <p>Fern Home</p>
+                    <h4>mbarara</h4>
+                    <button class="view-btn" data-house-id="3">View</button>
+                </div>
+                <div class="offer-box">
+                    <img src="image2.jpg" alt="Offer 1">
+                    <h3>70% Off</h3>
+                    <p>Riverside Residence</p>
+                    <h4>Jinja</h4>
+                    <button class="view-btn" data-house-id="4">View</button>
+                </div>
+                <div class="offer-box">
+                    <img src="kampala villa 3.jpg" alt="Offer 1">
+                    <h3>10% Off</h3>
+                    <p>Serene Villa</p>
+                    <h4>Kampala</h4>
+                    <button class="view-btn" data-house-id="5">View</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="popular-hotels">
+            <h2>Explore popular homes</h2>
+            <div class="hotels-container">
+                <div class="hotel-box">
+                    <img src="image3.jpg" alt="Hotel 1">
+                    <h3>Cedar house</h3>
+                    <p>Short description of the home.</p>
+                </div>
+                <div class="hotel-box">
+                    <img src="hotel2.jpg" alt="Hotel 2">
+                    <h3>Home 2</h3>
+                    <p>Short description of the home.</p>
+                </div>
+                <div class="hotel-box">
+                    <img src="hotel3.jpg" alt="Hotel 3">
+                    <h3>Home 3</h3>
+                    <p>Short description of the home.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="popular-hotels">
+            <h2>Explore Popular Hotels</h2>
+            <div class="cities-container">
+                <div class="city-section">
+                    <h3>Kampala</h3>
+                    <div class="hotels-container">
+                        <div class="card-container">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+
+                                        <div class="hotel-box">
+                                            <img src="sheraton.jpg" alt="Hotel 1">
+                                            <h4>Sheraton Kampala Hotel</h4>
+                                            <p>.</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <p>Sheraton Kampala Hotel, located in central Kampala, provides a luxurious
+                                            escape with modern amenities, elegant design, manicured gardens, an outdoor
+                                            pool, and a fitness center, all within easy reach of city attractions and
+                                            business hubs.</p>
+                                            <button id="book-btn">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card-container">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+
+                                        <div class="hotel-box">
+                                            <img src="mestil-hotel-residences (1).jpg" alt="Hotel 1">
+                                            <h4>Mestil Hotel & Residences</h4>
+                                            <p>.</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <p>Centrally located hotel offering spacious, modern rooms with kitchenettes. Lauded for excellent service, 
+                                        homely atmosphere, and amenities like gym, spa, and conference facilities.</p>
+                                            <button id="book-btn">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         
+                    </div>
+                </div>
+
+
+
+
+                
+                <br>
+                <div class="city-section">
+                    <h3>Mbarara</h3>
+                    <div class="hotels-container">
+
+
+                        <div class="card-container">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <div class="hotel-box">
+                                            <img src="lakeview.jpg" alt="Hotel 3">
+                                            <h4> Lake View Resort </h4>
+                                            <p>.</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <p>Lake View Resort Hotel in Mbarara is a four-star boutique hotel near Mbarara
+                                            Golf Club. It offers stylish accommodations for leisure and business
+                                            travelers, with proximity to Omugabe Lake, River Rwizi, and nearby national
+                                            parks.</p>
+                                            <button id="book-btn">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="hotel-box">
+                            <img src="silverback.jpg" alt="Hotel 4">
+                            <h4>Silverback Hotel</h4>
+                            <p>.</p>
+                        </div>
+                        <div class="hotel-box">
+                            <img src="Las-Vegas-garden-Hotel-Mbarara-swimming-pool.jpg" alt="Hotel 5">
+                            <h4>Las Vegas Garden Hotel
+                                </h4>
+                            <p>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </div>
+
+
+
+    <!-- Cart Popup -->
+    <div id="cart-popup" class="cart-popup">
+        <div class="cart-popup-content">
+            <span id="close-btn" class="close-btn">&times;</span>
+            <h2>Your Cart</h2>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="hotel1.jpg" alt="Hotel 1" class="cart-item-img">
+                    <div class="cart-item-details">
+                        <h3>Silverback hotel</h3>
+                        <p>2 nights</p>
+                        <p>$200</p>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="hotel2.jpg" alt="Hotel 2" class="cart-item-img">
+                    <div class="cart-item-details">
+                        <h3>sheraton hotel</h3>
+                        <p>3 nights</p>
+                        <p>$300</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-footer">
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- house pop up -->
+    <div id="house-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <div class="popup-inner">
+                <img id="house-image" src="" alt="House Image">
+                <div class="popup-details">
+                    <h2 id="house-title">House Title</h2>
+                    <p id="house-description">House Description</p>
+                </div>
+            </div>
+            <button id="book-btn">Book Now</button>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to handle cart popup
+        document.addEventListener('DOMContentLoaded', function () {
+            const cartBtn = document.getElementById('cart-btn');
+            const cartPopup = document.getElementById('cart-popup');
+            const closeBtn = document.getElementById('close-btn');
+
+            cartBtn.addEventListener('click', function () {
+                cartPopup.style.display = 'block';
+            });
+
+            closeBtn.addEventListener('click', function () {
+                cartPopup.style.display = 'none';
+            });
+
+            // Close popup if clicked outside of it
+            window.addEventListener('click', function (event) {
+                if (event.target === cartPopup) {
+                    cartPopup.style.display = 'none';
+                }
+            });
+        });
+
+
+
+
+
+
+        // popup for homes 
+        document.addEventListener('DOMContentLoaded', function () {
+            const popup = document.getElementById('house-popup');
+            const closeBtn = document.querySelector('.close-btn');
+            const bookBtn = document.getElementById('book-btn');
+
+            document.querySelectorAll('.view-btn').forEach(button => {
+                button.addEventListener('click', function () {
+                    const houseId = this.getAttribute('data-house-id');
+                    showPopup(houseId);
+                });
+            });
+
+            window.addEventListener('click', function (event) {
+                if (event.target === popup) {
+                    popup.style.display = 'none';
+                }
+            });
+            closeBtn.addEventListener('click', function () {
+                popup.style.display = 'none';
+            });
+            bookBtn.addEventListener('click', function () {
+                alert('Booking confirmed for this house!');
+                // You can also add logic to submit a booking request7+
+                popup.style.display = 'none';
+            });
+
+
+            function showPopup(houseId) {
+                // Fetch house details from a data source 
+                const houseDetails = getHouseDetails(houseId);
+
+                // Update popup content
+                document.getElementById('house-title').textContent = houseDetails.title;
+                document.getElementById('house-description').textContent = houseDetails.description;
+                document.getElementById('house-image').src = houseDetails.image;
+
+                // Display the popup
+                popup.style.display = 'block';
+            }
+
+            function getHouseDetails(houseId) {
+                // This is a placeholder.
+                const houseData = {
+                    1: {
+                        title: 'Highland Haven',
+                        description: `Highland Haven, located in Mbarara, features a cozy design with traditional elements such as stone accents and a warm fireplace. The house includes a large kitchen, comfortable living areas, and a private backyard, creating a homely atmosphere. It provides access to Mbarara’s natural beauty and outdoor activities, making it ideal for those who value comfort and community.`,
+                        image: 'mbarara2.jpg'
+                    },
+                    2: {
+                        title: 'Harmony Heights',
+                        description: `Harmony Heights, situated in a serene neighborhood of Kampala, offers a stylish home with a spacious living area, modern kitchen, and a rooftop terrace. Designed for those who enjoy a blend of luxury and tranquility, it is close to Kampala’s business district and cultural landmarks. The house provides a peaceful retreat from the city's hustle and bustle, combining comfort with convenience..`,
+                        image: 'harmony kla (1).jpg'
+                    },
+                    3: {
+                        title: 'Fern Home',
+                        description: `In the heart of Mbarara, Golden Horizon Home is a spacious retreat characterized by a large landscaped garden, an open-plan living area, and eco-friendly features. This charming house is perfect for families looking for a peaceful yet vibrant community. It enjoys a mild climate and beautiful views of the surrounding countryside, and is conveniently located near educational institutions and local markets`,
+                        image: 'path/to/house2.jpg'
+                    },
+                    4: {
+                        title: 'Riverside Residence',
+                        description: `Riverside Residence is a contemporary house in Jinja with expansive glass windows, a large balcony overlooking the Nile, and a well-maintained garden. Perfect for families and individuals who appreciate a modern lifestyle by the river, it offers stunning views and is near Jinja’s vibrant social scene. The house is great for hosting gatherings and enjoying outdoor activities..`,
+                        image: 'path/to/house2.jpg'
+                    },
+                    5: {
+                        title: 'Serene Villa',
+                        description: `Located in the bustling capital city of Kampala, Serene Villa offers a luxurious retreat with modern amenities. The house features a private pool, a spacious garden, and panoramic city views, making it ideal for those seeking both comfort and convenience. Its proximity to shopping centers, restaurants, and cultural attractions provides a perfect blend of urban convenience and serene relaxation.`,
+                        image: 'kampala villa 3.jpg'
+                    },
+                    6: {
+                        title: 'Fern Home',
+                        description: 'Description for Fern Home.',
+                        image: 'path/to/house2.jpg'
+                    }
+                    // Add more houses as needed
+                };
+
+                return houseData[houseId];
+            }
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+<style>
+
+
+body {
+  background-image: url("png-transparent-cactus-cactus-desert-green-thumbnail-removebg-preview (1).png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  background-size: 30%;
+}
+
+
+    /* styles.css */
+    .popup {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        z-index: 1;
+        /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black background with opacity */
+    }
+
+    .popup-content {
+        width: 300px;
+        /* Reduce the width */
+        height: 300px;
+        /* Increase the height */
+        background-color: #fefefe;
+        margin: 15% auto;
+        /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        /* Could be more or less, depending on screen size */
+        border-radius: 15px;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: #aaa;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .close-btn:hover,
+    .close-btn:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .book-btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .book-btn:hover {
+        background-color: #45a049;
+    }
+
+    .popup-inner {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    #house-image {
+        width: 200px;
+        /* Constrain the width of the image */
+        height: auto;
+        border-radius: 10px;
+        /* Round the image corners */
+        object-fit: cover;
+    }
+
+    #house-title {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    #house-description {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #555;
+    }
+
+    #book-btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    #book-btn:hover {
+        background-color: #218838;
+    }
+
+    .popup-content {
+        animation: fadeIn 0.3s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: scale(0.9);
+        }
+
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* hotels css */
+    .popular-hotels {
+        padding: 20px;
+    }
+
+    .cities-container {
+        gap: 20px;
+    }
+
+    .city-section {
+        flex: 1;
+        min-width: 300px;
+        /* Adjust as needed */
+    }
+
+    .city-section h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .hotels-container {
+        display: flex;
+
+
+        gap: 15px;
+    }
+
+    .hotel-box {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hotel-box img {
+        width: 100%;
+        height: 150px;
+        /* Adjust as needed */
+        object-fit: cover;
+    }
+
+    .hotel-box h3 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .hotel-box p {
+        color: #555;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* flip */
+    .card-container {
+        background-color: white;
+        perspective: 1000px;
+    }
+
+    .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 200px;
+        
+    }
+
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+    }
+
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .flip-card-front {
+       
+    }
+
+    .flip-card-back {
+        background-color: black;
+        color: white;
+        transform: rotateY(180deg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border-radius: 8%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    body {
+ 
+}
+</style>

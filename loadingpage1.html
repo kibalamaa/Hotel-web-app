@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cactus Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add styles for pixelation effect */
+        .hero-image img {
+            margin-top: 8%;
+            margin-left: 37%;
+            width: 350px;
+            height: 520px;
+            animation: pixelate 2s ease-in-out infinite;
+            filter: blur(10px);
+        }
+
+            /* Keyframe to animate pixelation effect */
+            @keyframes pixelate {
+            0% {
+                filter: blur(10px); /* Start highly pixelated */
+                transform: scale(1.2); /* Optional scaling for effect */
+            }
+            50% {
+                filter: blur(0px); /* Mid-point: fully clear image */
+                transform: scale(1); /* Return to normal size */
+            }
+            100% {
+                filter: blur(10px); /* End with pixelated image again */
+                transform: scale(1.2); /* Back to scale */
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+            <div class="hero-image">
+                <img src="png-transparent-cactus-cactus-desert-green-thumbnail-removebg-preview (1).png" alt="Cactus">
+            </div>
+    </main>
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>
+
+<script>
+    // Redirect to another page after 4 seconds
+    setTimeout(function() {
+        window.location.href = "login.html"; // Change this to the page you want to load
+    }, 3000); // 4000 milliseconds = 4 seconds
+</script>

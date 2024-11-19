@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #294a3b, #99ff99); /* Lemon green to light green */
+    height: 100vh; /* Ensure the background covers the full height of the viewport */
+ 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav ul {
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    list-style: none;
+    margin-bottom: 50%;
+}
+
+nav ul li {
+    text-align: center;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.help-btn {
+    padding: 10px 20px;
+    background-color:  black;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+.help-btn:hover{
+    background-color:   #0f773c;
+}
+.login-form {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+}
+.loginsignup{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2 {
+    text-align: center;
+    color: #0f773c;
+    margin-bottom: 20px;
+}
+h2:hover{
+    color: black;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.forgot-password {
+    display: block;
+    margin-bottom: 20px;
+    text-align: right;
+    text-decoration: none;
+    color: #3EC0B0;
+    font-size: 14px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0f773c;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-btn:hover{
+    background-color: black ;
+    color:  #0f773c;
+}
+
+.item {
+    color: black;
+    position: relative;
+   margin-bottom: 1%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.animated-bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0;
+    background-color:#99ff99;
+    transition: width 0.3s ease;
+}
+
+.item:hover .animated-bar {
+    width: 100%;
+
+
+}
+.a{
+    text-decoration: none;
+}

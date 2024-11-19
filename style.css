@@ -1,0 +1,148 @@
+/* Reset some default styling */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #294a3b, #99ff99); /* Lemon green to light green */
+    height: 100vh; /* Ensure the background covers the full height of the viewport */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    /* background-color: #294a3b; */
+}
+
+nav {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+   
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(255, 187, 71);
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.item {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.animated-bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0;
+    background-color:#99ff99;
+    transition: width 0.3s ease;
+}
+
+.item:hover .animated-bar {
+    width: 75%;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    background-color:rgb(255, 187, 71);
+    border-radius:18px;
+}
+
+.cart-icon {
+    font-size: 1.5rem;
+}
+
+.cart-count {
+    color: #fff;
+    border-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.menu{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.hero {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    /* background: linear-gradient(90deg, #294a3b, #3f7352); */
+}
+
+.hero-content {
+    max-width: 50%;
+    color: #fff;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.shop-now-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border:  2px solid  rgb(255, 187, 71) ;
+    color: #fff;
+    /* text-decoration: none; */
+    font-weight: bold;
+    border-radius: 25px;
+    
+}
+
+.hero-image img {
+    width: 400px;
+    height: auto;
+    margin-top: -10%;
+}
+
+

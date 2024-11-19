@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cactus Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add styles for pixelation effect */
+        .hero-image img {
+            animation: pixelate 2s ease-in-out forwards;
+            filter: blur(10px);
+        }
+
+        /* Keyframe to animate pixelation effect */
+        @keyframes pixelate {
+            0% {
+                filter: blur(10px); /* Start highly pixelated */
+                transform: scale(1.2); /* Optional scaling for effect */
+            }
+            100% {
+                filter: blur(0px); /* End with full clarity */
+                transform: scale(1); /* Return to original size */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"> <img src="cactus_11035508.png" alt="" width="60" height="60">Cactus <br> <br><img class="airbnb" src="air-bnb.svg" alt="" width="20%" height="20%"> </div>
+            <!-- <ul>
+                <div class="container">
+                    <div class="item">
+                        <li><a href="#">Home</a></li>
+                        <div class="animated-bar"></div>
+                    </div>
+                    <div class="item">
+                        <li><a href="#">Catalogue</a></li>
+                        <div class="animated-bar"></div>
+                    </div>
+                    <div class="item">
+                        <li><a href="#">Sale %</a></li>
+                        <div class="animated-bar"></div>
+                    </div>
+                </div>
+            </ul> -->
+            <!-- <div class="cart">
+                <img src="shopping-cart-outline-svgrepo-com.svg" alt="" width="35" height="35">
+                <span class="cart-count">3</span>
+            </div> -->
+            
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h3>PLANET</h3>
+                <h1>CACTUS</h1>
+                <h4>Book It Like a Boss – Book Your Next Getaway!</h4>
+                <a href="loadingpage1.html" class="shop-now-btn">Book Now</a> <br> <br> <br> <br>
+
+                <h4> Follow us on : <br> <img src="icons8-facebook-50 (1).png" alt=""width="40" height="40"> <img src="icons8-x-80 (1).png" alt=""width="40" height="40"> <img src="icons8-instagram-50 (1).png" alt=""width="40" height="40"></h4>
+            </div>
+            <div class="hero-image">
+                <img src="png-transparent-cactus-cactus-desert-green-thumbnail-removebg-preview (1).png" alt="Cactus">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>
+
+<style>
+    .airbnb{
+        margin-top:25px;
+   
+        margin-left: -20%;
+
+    }
+</style>

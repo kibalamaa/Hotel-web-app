@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background Image Behind Content</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+    <!-- Your content here -->
+    <h1>Hello, World!</h1>
+    <br>rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+  </div>
+</body>
+</html>
+
+
+
+<style>
+    /* styles.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url('png-transparent-cactus-cactus-desert-green-thumbnail-removebg-preview (1).png');
+  background-size: cover; background-repeat: no-repeat; height: 300px; width: 500px;
+}
+
+.background {
+  position: absolute; /* Position it absolutely */
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 40%;
+ 
+  background-size: cover; /* Cover the entire element */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  z-index: -1; /* Send it to the back */
+}
+
+.content {
+  position: relative; /* Position relative to allow z-index */
+  z-index: 1; /* Ensure content is above the background */
+  color: black; /* Optional: adjust text color for contrast */
+  padding: 20px;
+}
+
+</style>
